@@ -15,7 +15,7 @@ programa {
     m = (n1+n2+n3+n4)/4
 
 
-    escreva("A nota média do participante é : ", m)
+    escreva("A nota mï¿½dia do participante ï¿½ : ", m)
 
 
 
