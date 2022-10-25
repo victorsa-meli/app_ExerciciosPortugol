@@ -1,13 +1,18 @@
-programa {
-  funcao inicio() {
-
-
+programa
+{
+	
+	funcao inicio()
+	{
+		
     cadeia r1, r2, r3
-    real c
+    inteiro c
 
-      escreva("Vertebrado ou Invertebrado: ")
+      escreva("Vertebrado ou Invertebrado ?  ")
       leia(r1)
-      
+
+
+
+      		c = 0
       
                       se (r1 == "vertebrado"){ 
                           c = 1
@@ -21,17 +26,17 @@ programa {
       
               escolha (c){
                 caso 1:
-                              escreva("Ave ou Mamifero")
+                              escreva("Ave ou Mamifero ?  ")
                               leia(r2)
                              
                              
                               se (r2 == "ave"){
-                                            escreva("Carnivoro ou Onivoro. ? ")
+                                            escreva("Carnivoro ou Onivoro?  ")
                                             leia(r3)
                                             se (r3 == "carnivoro"){
                                                 escreva("Águia")
                                                 }
-                                            senao se (respTres == "onivoro"){
+                                            senao se (r3 == "onivoro"){
                                               escreva("Pomba")
                                               }
                                                 
@@ -41,8 +46,8 @@ programa {
                               
                               }
                               
-                              senao se (respDois == "mamifero"){
-                                            escreva("Onivoro ou Herbivoro? ")
+                              senao se (r2 == "mamifero"){
+                                            escreva("Onivoro ou Herbivoro?  ")
                                             leia(r3)
                                             
                                             se (r3 == "onivoro"){
@@ -58,9 +63,9 @@ programa {
                                 senao escreva("Opcao invalida")
                                                  pare
                                 caso 2: 
-                                  escreva("Inseto ou Anelideo")
+                                  escreva("Inseto ou Anelideo?  ")
                                   leia(r2)
-                                  se (r2 == "Inseto"){
+                                  se (r2 == "inseto"){
                                        escreva("Hematofago ou Herbivoro. ? ")
                                         leia(r3)
                                                               se (r3 == "hematofago"){
@@ -92,5 +97,5 @@ programa {
                                                   pare
 
               }
-  }
+	}
 }
